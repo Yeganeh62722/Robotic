@@ -1,0 +1,13 @@
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/uninstall.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/robot_description_uninstall.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/frame_id_converter_node.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/motor_command_node.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/ekf_diff_imu_node.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/diff_drive_controller_node.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/test.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/edit_cache.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/rebuild_cache.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/list_install_components.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/install.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/install/local.dir
+/home/amir/Documents/R/robotics_ws/build/robot_description/CMakeFiles/install/strip.dir

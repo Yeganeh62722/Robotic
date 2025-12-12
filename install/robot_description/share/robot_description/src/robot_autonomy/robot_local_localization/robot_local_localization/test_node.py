@@ -1,0 +1,1 @@
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/robot_local_localization/test_node.py
