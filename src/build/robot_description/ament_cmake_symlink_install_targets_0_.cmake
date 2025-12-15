@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/amir/Documents/R/robotics_ws/src/build/robot_description/diff_drive_controller_node" "TARGETS" "diff_drive_controller_node" "DESTINATION" "lib/robot_description")

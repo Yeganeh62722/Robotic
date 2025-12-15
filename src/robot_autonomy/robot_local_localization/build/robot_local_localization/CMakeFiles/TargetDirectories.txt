@@ -1,0 +1,9 @@
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/uninstall.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/robot_local_localization_uninstall.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/test.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/edit_cache.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/rebuild_cache.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/list_install_components.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/install.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/install/local.dir
+/home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description/src/robot_autonomy/robot_local_localization/build/robot_local_localization/CMakeFiles/install/strip.dir

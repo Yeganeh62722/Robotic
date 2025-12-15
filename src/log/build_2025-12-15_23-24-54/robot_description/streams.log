@@ -1,0 +1,87 @@
+[0.035s] Invoking command in '/home/amir/Documents/R/robotics_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amir/Documents/R/robotics_ws/src/build/robot_description -- -j8 -l8
+[0.088s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.451s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.513s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.517s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.532s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.636s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.960s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.013s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.056s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.075s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.084s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.271s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.449s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.450s] -- Configured cppcheck include dirs: 
+[1.450s] -- Configured cppcheck exclude dirs and/or files: 
+[1.456s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.467s] -- Added test 'lint_cmake' to check CMake code style
+[1.472s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.511s] -- Added test 'uncrustify' to check C / C++ code style
+[1.511s] -- Configured uncrustify additional arguments: 
+[1.516s] -- Added test 'xmllint' to check XML markup files
+[1.518s] -- Configuring done
+[1.559s] -- Generating done
+[1.577s] -- Build files have been written to: /home/amir/Documents/R/robotics_ws/src/build/robot_description
+[1.655s] [ 12%] [32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o[0m
+[1.656s] [ 25%] [32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o[0m
+[1.659s] [ 37%] [32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o[0m
+[1.665s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_controller_node.dir/src/diff_drive_controller.cpp.o[0m
+[23.967s] [ 62%] [32m[1mLinking CXX executable frame_id_converter_node[0m
+[24.408s] [ 75%] [32m[1mLinking CXX executable diff_drive_controller_node[0m
+[25.097s] [ 75%] Built target frame_id_converter_node
+[25.176s] [ 87%] [32m[1mLinking CXX executable motor_command_node[0m
+[25.486s] [ 87%] Built target diff_drive_controller_node
+[26.092s] [ 87%] Built target motor_command_node
+[32.659s] [100%] [32m[1mLinking CXX executable ekf_diff_imu_node[0m
+[33.836s] [100%] Built target ekf_diff_imu_node
+[33.861s] Invoked command in '/home/amir/Documents/R/robotics_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amir/Documents/R/robotics_ws/src/build/robot_description -- -j8 -l8
+[33.863s] Invoking command in '/home/amir/Documents/R/robotics_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amir/Documents/R/robotics_ws/src/build/robot_description
+[33.875s] -- Install configuration: ""
+[33.876s] -- Execute custom install script
+[33.877s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/lib/robot_description/diff_drive_controller_node
+[33.892s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/description/robot.urdf
+[33.906s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/diff_drive_controller.cpp
+[33.921s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/Front_Left_Caster_Wheel_Main.STL
+[33.936s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/Front_Right_Caster_Wheel_Main.STL
+[33.953s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/Rear_Left_Caster_Wheel_Main.STL
+[33.968s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/Rear_Right_Caster_Wheel_Main.STL
+[33.982s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/Rear_Trailing.STL
+[33.997s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/chasis.STL
+[34.012s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/wheel.STL
+[34.026s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/wheel.usd
+[34.042s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/src/meshes/zed.STL
+[34.058s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/launch/display.launch.py
+[34.072s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[34.087s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/rviz/config.rviz
+[34.103s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/config/gz_bridge.yaml
+[34.118s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/config/rtabmap_slam.yaml
+[34.133s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/world/depot.sdf
+[34.150s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/world/test.sdf
+[34.166s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp
+[34.180s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp
+[34.194s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/scripts/motor_command.cpp
+[34.210s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/lib/robot_description/frame_id_converter_node
+[34.225s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/lib/robot_description/ekf_diff_imu_node
+[34.241s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/lib/robot_description/motor_command_node
+[34.260s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[34.276s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[34.291s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[34.305s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[34.321s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/environment/path.sh
+[34.336s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+[34.352s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/local_setup.bash
+[34.367s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/local_setup.sh
+[34.382s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+[34.396s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+[34.411s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/package.dsv
+[34.426s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[34.442s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[34.459s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[34.474s] -- Symlinking: /home/amir/Documents/R/robotics_ws/src/install/robot_description/share/robot_description/package.xml
+[34.492s] Invoked command in '/home/amir/Documents/R/robotics_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amir/Documents/R/robotics_ws/src/build/robot_description

@@ -1,0 +1,35 @@
+[0.036s] Invoking command in '/home/amir/Documents/R/robotics_ws/src/build/robot_local_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amir/Documents/R/robotics_ws/src/robot_autonomy/robot_local_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amir/Documents/R/robotics_ws/src/install/robot_local_localization
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.315s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.511s] -- Detecting C compiler ABI info - done
+[0.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.533s] -- Detecting C compile features
+[0.534s] -- Detecting C compile features - done
+[0.544s] -- Detecting CXX compiler ABI info
+[0.681s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.706s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.227s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.228s]   By not providing "Findament_python.cmake" in CMAKE_MODULE_PATH this project
+[1.228s]   has asked CMake to find a package configuration file provided by
+[1.228s]   "ament_python", but CMake did not find one.
+[1.228s] 
+[1.228s]   Could not find a package configuration file provided by "ament_python" with
+[1.229s]   any of the following names:
+[1.229s] 
+[1.229s]     ament_pythonConfig.cmake
+[1.229s]     ament_python-config.cmake
+[1.229s] 
+[1.229s]   Add the installation prefix of "ament_python" to CMAKE_PREFIX_PATH or set
+[1.230s]   "ament_python_DIR" to a directory containing one of the above files.  If
+[1.230s]   "ament_python" provides a separate development package or SDK, be sure it
+[1.230s]   has been installed.
+[1.230s] 
+[1.230s] [0m
+[1.230s] -- Configuring incomplete, errors occurred!
+[1.230s] See also "/home/amir/Documents/R/robotics_ws/src/build/robot_local_localization/CMakeFiles/CMakeOutput.log".

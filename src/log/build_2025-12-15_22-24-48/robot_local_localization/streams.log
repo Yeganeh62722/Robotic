@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/amir/Documents/R/robotics_ws/src/build/robot_local_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amir/Documents/R/robotics_ws/src/robot_autonomy/robot_local_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amir/Documents/R/robotics_ws/src/install/robot_local_localization
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.293s] -- The CXX compiler identification is GNU 11.4.0
+[0.312s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.672s] -- Detecting CXX compile features
+[0.673s] -- Detecting CXX compile features - done
+[0.679s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.024s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.212s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.298s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.307s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.328s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.463s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.468s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.701s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.794s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.810s] -- Looking for pthread.h
+[1.958s] -- Looking for pthread.h - found
+[1.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.121s] -- Found Threads: TRUE  
+[2.225s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.288s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.321s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.363s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.365s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.366s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.622s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.808s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.808s] -- Configured cppcheck include dirs: 
+[2.808s] -- Configured cppcheck exclude dirs and/or files: 
+[2.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.817s] -- Added test 'lint_cmake' to check CMake code style
+[2.821s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.847s] -- Added test 'uncrustify' to check C / C++ code style
+[2.848s] -- Configured uncrustify additional arguments: 
+[2.854s] -- Added test 'xmllint' to check XML markup files
+[2.859s] [31mCMake Error at CMakeLists.txt:29 (ament_python_package):
+[2.859s]   Unknown CMake command "ament_python_package".
+[2.860s] 
+[2.860s] [0m
+[2.860s] -- Configuring incomplete, errors occurred!
+[2.860s] See also "/home/amir/Documents/R/robotics_ws/src/build/robot_local_localization/CMakeFiles/CMakeOutput.log".
+[2.886s] Invoked command in '/home/amir/Documents/R/robotics_ws/src/build/robot_local_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amir/Documents/R/robotics_ws/src/robot_autonomy/robot_local_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amir/Documents/R/robotics_ws/src/install/robot_local_localization

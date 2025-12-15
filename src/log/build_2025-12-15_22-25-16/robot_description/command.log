@@ -1,0 +1,1 @@
+Invoking command in '/home/amir/Documents/R/robotics_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amir/Documents/R/robotics_ws/src/robotic_course/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amir/Documents/R/robotics_ws/src/install/robot_description
